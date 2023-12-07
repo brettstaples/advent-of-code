@@ -25,9 +25,6 @@ function partOne() {
     }
 
     total += amount;
-    // console.log(amount);
-    // console.log(i);
-    // console.log(arrData[i]);
   }
 
   console.log(total);
