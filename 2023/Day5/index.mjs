@@ -53,7 +53,6 @@ function partOne() {
     let number = parseInt(arr[0][index]);
     for (let j = 1; j <= 7; j++) {
       number = seedNumber(number, arr, j);
-      //console.log(number);
     }
 
     if (number < lowest) {
@@ -92,6 +91,7 @@ function partOne() {
         count += 3;
     }
     
+    console.log(num);
     return num;
    }
  
